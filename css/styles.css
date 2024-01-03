@@ -15,14 +15,6 @@ a {
     text-decoration: none;
 }
 
-/* .visually-hidden {
-    margin: -1px;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
-
 h1, h2, h3 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -139,12 +131,6 @@ img {
     margin-left: auto;
 }
 
-.button-container {
-    display: flex;
-    margin-top: 48px;
-    justify-content: center;
-}
-
 .main-button {
     color: #FFF;
     font-family: "Roboto", sans-serif;
@@ -162,6 +148,7 @@ img {
     display: block;
     min-width: 169px;
     height: 56px;
+    margin-top: 48px;
 }
 
 .main-button:hover,
@@ -184,7 +171,6 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
